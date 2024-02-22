@@ -10,7 +10,7 @@ const initialState: CarrinhoState = {
 }
 
 const carrinhoSlice = createSlice({
-  name: 'carrinoho',
+  name: 'carrinho',
   initialState,
   reducers: {
     adicionar: (state, action: PayloadAction<Produto>) => {
