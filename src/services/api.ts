@@ -1,13 +1,16 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { Produto } from '../App'
 
+const isLocal = process.env.NODE_ENV === 'development'
+const baseUrl = isLocal ? 'http://192.168.1.8:4000' : 'http://192.168.1.8:4000'
+
 const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://fake-api-tau.vercel.app/api'
+    baseUrl: baseUrl
   }),
   endpoints: (builder) => ({
     getProdutos: builder.query<Produto[], void>({
-      query: () => 'ebac_sports'
+      query: () => 'produtos'
     })
   })
 })

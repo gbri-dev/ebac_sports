@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Gabinete SuperFrame",
+      "preco": 249.99,
+      "imagem": "https://lowpricebr.com.br/wp-content/uploads/2023/04/Screenshot_7716-1.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Water cooler",
+      "preco": 749.99,
+      "imagem": "https://img.terabyteshop.com.br/produto/g/water-cooler-superframe-isengard-argb-360mm-intel-amd-controladora-white-sf-w360w_167146.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Ryzen 7 5700X",
+      "preco": 1987.99,
+      "imagem": "https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/8a/8ac24b23-a1af-4f20-bf67-05b54adf3451?rule=kijijica-640-jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Memoria DDR4 16GB Hyperx",
+      "preco": 589.99,
+      "imagem": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/h/x/hx429c17fb16.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Motherboard ASROCK STEEL LEGEND",
+      "preco": 999.99,
+      "imagem": "https://www.technochops.com/wp-content/uploads/2020/11/ASRock-AM4-X570-Steel-Legend-768x937.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Fonte 750w Corsair CX750F RGB",
+      "preco": 1300.00,
+      "imagem": "https://ddtech.mx/assets/uploads/4d7446962e1d2ef95582d1add94f4b51.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "RTX 4070Ti DDR6 12GB OC",
+      "preco": 2499.99,
+      "imagem": "https://hardzone.es/app/uploads-hardzone.es/2023/10/rtx-white-.jpg"
+    }
+  ]
+}

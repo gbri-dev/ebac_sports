@@ -14,7 +14,14 @@ export const Capa = styled.div`
   img {
     display: block;
     width: 100%;
+    height: 238px;
     margin-bottom: 8px;
+  }
+
+  @media (max-width: 640px) {
+    img {
+      height: auto;
+    }
   }
 `
 
